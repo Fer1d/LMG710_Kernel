@@ -192,3 +192,5 @@ ifeq ($(TARGET_LGE_REGION), KR)
 obj-$(CONFIG_TRUSTONIC_TEE) += gud/
 
 obj-y += kernelsu/
+
+endif
